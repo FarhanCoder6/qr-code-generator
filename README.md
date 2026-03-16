@@ -1,17 +1,18 @@
 # 🔳 QR Code Generator
 
-A simple and clean **QR Code Generator** web app built with pure HTML, CSS, and JavaScript. Enter any URL or text and instantly generate a downloadable QR code.
+A simple and clean **QR Code Generator** web app built with pure HTML, CSS, and JavaScript. Enter any URL or text and instantly generate a QR code — with history tracking and download support.
 
 ---
 
-
-
-## 📸 Features
+## ✨ Features
 
 - ✅ Generate QR code from any URL or text
+- ✅ Save custom channel / label name with each QR code
+- ✅ History tracking — see all previously generated QR codes
+- ✅ Thumbnail preview in history
+- ✅ Clear history option
 - ✅ Clean and responsive UI
 - ✅ No frameworks — pure HTML, CSS, JS
-- ✅ Instant QR code preview
 
 ---
 
@@ -21,7 +22,8 @@ A simple and clean **QR Code Generator** web app built with pure HTML, CSS, and 
 |---|---|
 | HTML | Structure of the app |
 | CSS | Styling and layout |
-| JavaScript | QR code generation logic |
+| JavaScript | QR code generation and history logic |
+| QRCode.js | QR code rendering library |
 
 ---
 
@@ -50,7 +52,20 @@ cd qr-code-generator
 open index.html
 ```
 
+> No installation needed — just open `index.html` in any browser!
+
 ---
+
+## 📖 How to Use
+
+1. Enter any **URL or text** in the input field
+2. Add a **channel name or label** (e.g. MrBeast, My Website)
+3. Click **Generate** button
+4. Your QR code will appear instantly
+5. All generated QR codes are saved in **History** below
+
+---
+
 
 
 ## 📄 License
