@@ -63,5 +63,5 @@ function showhistory() {
 window.addEventListener("load", showhistory);
 
 historybtn.addEventListener('click',()=>{
-    history.style.display="block";
+    history.style.display = history.style.display === "block" ? "none" : "block";
 })
