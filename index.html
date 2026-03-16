@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>QR Code Genrator</title>
+    <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+    <div class="main-container">
+
+    
+    <div class="container">
+        <p>Enter your video Link <span class="history-button">History</span></p>
+        <input type="text" placeholder="Text or URL" id="qrtext">
+        <div>
+            <h3>Channel name: <span id="channelid"></span></h3>
+        </div>
+        <div id="imgBox">
+            <img src="" alt="" id="qrImage">
+        </div>
+        <button onclick="genrateQR()">Genrate QR Code</button>
+
+        
+    </div>
+
+        <div class="history">
+            <h3>History of <span>youtube</span>  video link</h3>
+            <p id="historyurl"></p>
+        </div>
+
+
+
+    </div>
+
+<script src="./config.js"></script>
+<script src="./script.js"></script>
+</body>
+</html>
